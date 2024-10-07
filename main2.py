@@ -12,8 +12,8 @@ def eq2grau(a,b,c):
     Delta = mt.pow(b,2)-4*a*c
     if (Delta>0):
         #duas reais distintas
-        x1 = (-b+pow(Delta, 0.5))/(2*a)
-        x2 = (-b-pow(Delta, 0.5))/(2*a)
+        x1 = (-b-pow(Delta, 0.5))/(2*a)
+        x2 = (-b+pow(Delta, 0.5))/(2*a)
         return x1,x2
 
 if __name__=="__main__":
