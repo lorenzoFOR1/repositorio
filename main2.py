@@ -15,6 +15,12 @@ def eq2grau(a,b,c):
         x1 = (-b-pow(Delta, 0.5))/(2*a)
         x2 = (-b+pow(Delta, 0.5))/(2*a)
         return x1,x2
+    elif(Delta == 0):
+        print("Há raiz unica, Delta = ", Delta)
+        return Delta
+    else:
+        print("Raizes complexas, Delta = ", Delta)
+        return Delta
 
 if __name__=="__main__":
     x1,x2 = eq2grau(1,4,3)
