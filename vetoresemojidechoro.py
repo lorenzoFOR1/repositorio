@@ -8,7 +8,14 @@ def script0():
     print(vA)
     print(vB)
     print(vC)
-    print("batman aparece", vC.count("batman"),"vez")
+    print("batman aparece", vC.count("batman"),"vez(es)")
+
+def script1in():
+    bebidas = ["coco-cola", "pespi", "guarana", "leite"]
+    print("coco-cola" in bebidas)
+    print("vodka" not in bebidas)#vodka not in = true se vodka in bebidas = false
+    
 
 if __name__=="__main__":
-    script0()
+    #script0()
+    script1in()
