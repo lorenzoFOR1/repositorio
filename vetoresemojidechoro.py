@@ -29,5 +29,5 @@ def script1in():
     
 
 if __name__=="__main__":
-    #script0()
+    script0()
     script1in()
